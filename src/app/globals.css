@@ -4,6 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes moveBackground {
+  from { background-position: center 0%; }
+  to   { background-position: center 100%; }
+}
+
 :root {
   --color-primary: #0F172A;
   --color-on-primary: #FFFFFF;
